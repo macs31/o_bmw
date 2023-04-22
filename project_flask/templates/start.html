@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная старница
+{% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="static/css/style.css">
+<img src="static/img/bmw_picture.jpg" class="img-fluid">
+<h1 class="container text-center">ВЫБЕРИТЕ СВОЮ BMW</h1>
+<div class="align d-flex text-justify row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+        <img src="static/img/icon/book_icon.png">
+        <h3 class="container fs-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Всё о
+            BMW</font></font>
+        </h3>
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Познакомьтесь с миром BMW с
+            помощью этой энциклопедии</font></font></p>
+    </div>
+    <div class="feature col">
+        <img src="static/img/icon/car_icon.png">
+        <h3 class="fs-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Мотоциклы</font></font>
+        </h3>
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BMW производят не только
+            машины, а также и мотоциклы</font></font></p>
+    </div>
+    <div class="feature col">
+        <img src="static/img/icon/characteristic_icon.png">
+        <h3 class="fs-2"><font style="vertical-align: inherit;"><font
+                style="vertical-align: inherit;">Возможности</font></font></h3>
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            Узнайте о характеристиках автомобилей и другой техники от BMW</font></font></p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1134</width>
+    <height>869</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Главное меню</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>40</width>
+    <height>80</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="hello">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>130</y>
+      <width>831</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Приветствую, Максим!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about_the_library">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>390</y>
+      <width>291</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>О библиотеке</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="take_a_book">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>390</y>
+      <width>291</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Взять книгу</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="turn_in_a_book">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>390</y>
+      <width>291</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сдать книгу</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="help">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>530</y>
+      <width>381</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Помощь</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="change_name">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>30</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Изменить имя</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fine_history">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>530</y>
+      <width>381</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>История штрафов</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1134</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

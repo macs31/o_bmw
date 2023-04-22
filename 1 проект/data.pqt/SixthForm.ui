@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1424</width>
+    <height>869</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Помощь</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1424</width>
+     <height>869</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Памятка:&lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;1) &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Кнопка “О библиотеке”: &lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;При нажатии данной кнопки откроется окно, в        котором будет описание библиотеки, её функции и возможности, информация о создателях, целевая аудитория. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;2) &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Кнопка “Взять книгу”: &lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;При нажатии этой кнопки откроется окно, в котором вам нужно будет ввести инициалы,  далее пройдёт проверка на наличие читательского дневника (при его отсутствии пользователя направят в поле &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Штраф&lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;, где пользователь должен будет его оформить за определенную сумму). Дальше у пользователя спросят его предпочтения по книгам, авторам, жанрам и т.д., где пользователь и сможет выбрать себе книгу. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;3) &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Кнопка “Сдать книгу”:&lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt; При нажатии данной кнопки будет открываться окно, в котором нужно будет ввести инициалы, для нахождения читательского дневника. В читательском дневнике будут данные о тех книгах, которые пользователь взял для чтения. В случае задолженности, пользователь также выплачивает штраф. В случае отсутствия штрафов книга вычёркивается из читательского дневника. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;4) &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Кнопка “Штраф”: &lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;Данная кнопка отвечает за все выплаты и денежные операции, связанные с библиотекой &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;5) &lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Кнопка “Помощь”: &lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;Эта кнопка отвечает за вопросы пользователей и работников, ответы на них. Т.е. я планирую поместить туда информацию о всех функциях приложения, для того, чтобы пользователи могли найти ответы на их вопросы. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;Если у вас появятся вопросы, ответы на них вы всегда можете найти в этом документе&lt;/span&gt;&lt;span style=&quot; font-family:'Wingdings'; font-size:20pt;&quot;&gt;J&lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_sixthform">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>710</y>
+     <width>241</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Вернуться на главную</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

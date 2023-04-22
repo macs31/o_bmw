@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{title}}</h1>
+<a class="btn btn-secondary " href={{"/week/" + weeko}}>{{weekr}}</a>
+<div id="cont">
+    <div id="changes">
+        <table>
+        {% for day in week %}
+            <tr>
+                <td>{{day[1]}}</td>
+                <td>{{day[2]}}</td>
+                <td><a class="btn btn-warning " href={{"/day/" + day[0]}}>Изменить</a></td>
+            </tr>
+        {% endfor %}
+        </table>
+    </div>
+    <div id="graphic">
+        <img src='{{ url_for("dynamic", path=graph_file) }}'>
+    </div>
+</div>
+{% endblock %}
